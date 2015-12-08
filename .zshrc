@@ -60,6 +60,10 @@ plugins=(git z colorize brew osx zsh-syntax-highlighting)
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# java dev settings
+export JAVA_HOME=$(/usr/libexec/java_home)
+export M2_HOME=/usr/local/Cellar/maven/3.3.9
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
